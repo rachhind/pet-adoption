@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Robogarden Pet Shelter</title>
-    </head>
+<head>
+    <title>Robogarden Pet Shelter</title>
+</head>
+<body>
 
-    <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="adopt.html">Adopt a Pet</a></li>
-        </ul>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adopt.html">Adopt a Pet</a></li>
+    </ul>
 
-        <h1>Adopt a Pet</h1>
-        <p>Fill the form below to apply for pet adoption.</p>
+    <h1>Adopt a Pet</h1>
+    <p>Fill the form below to apply for pet adoption.</p>
 
-        <form>
-            <p>
-                <label>Pet ID Number</label>
-                <input type="text">            
-            </p>
+    <form action="#" method="post">
+        <p>
+            <label for="pet_id">Pet ID Number</label>
+            <input type="text" id="pet_id" name="pet_id">            
+        </p>
 
-            <p>
-                <label>Your Name</label>
-                <input type="text">
-            </p>
+        <p>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
+        </p>
 
-            <p>
-                <label>Phone number</label>
-                <input type="tel">
-            </p>
+        <p>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+        </p>
 
-            <p>
-                <label>Email</label>
-                <input type="email">
-            </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </p>
 
-            <button type="submit">Submit</button>
-        </form>
-    </body>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
 </html>
